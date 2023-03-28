@@ -9,9 +9,10 @@ body {
   padding: 0;
 }
 
-/* Center body */
-body {
-  margin: 64px 128px;
+/* Width wrapper */
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Green color on bolded words */
