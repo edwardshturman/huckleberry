@@ -54,18 +54,30 @@ strong {
   padding-bottom: 64px;
 }
 
-/* Main */
+/* Border */
+header {
+  border-bottom: 8px solid var(--header-border-gray);
 }
 
 /* Main */
+/* Color */
+main {
+  background-color: var(--main-gray);
+}
+
 /* Padding */
 main {
   padding: 64px;
 }
 
+/* Card color */
+.card {
+  background-color: white;
+}
 
-/* Green color on bolded words */
-strong {
-  color: hsl(160deg, 100%, 30%);
+/* Card positioning */
+.card {
+  padding: 24px;
+  margin: 0 -24px;
 }
 
