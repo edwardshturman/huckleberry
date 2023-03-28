@@ -18,3 +18,8 @@ body {
 strong {
   color: hsl(160deg, 100%, 30%);
 }
+
+/* Header max width */
+header .max-width-wrapper {
+  max-width: 325px;
+}
