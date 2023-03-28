@@ -9,4 +9,8 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+/* Center body */
+body {
+  margin: 64px 128px;
+}
+
