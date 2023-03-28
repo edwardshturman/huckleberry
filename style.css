@@ -62,23 +62,14 @@ header {
 }
 
 /* Main */
-/* Color */
 main {
+  padding: 64px;
   background-color: var(--main-gray);
 }
 
-/* Padding */
-main {
-  padding: 64px;
-}
-
-/* Card color */
+/* Card */
 .card {
   background-color: white;
-}
-
-/* Card positioning */
-.card {
   padding: 24px;
   margin: 0 -24px;
   border-bottom: 8px solid var(--header-border-gray);
