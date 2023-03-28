@@ -14,3 +14,7 @@ body {
   margin: 64px 128px;
 }
 
+/* Green color on bolded words */
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
