@@ -17,6 +17,13 @@ body {
 }
 
 /* Styles */
+/* Color variables */
+:root {
+  --main-gray: hsl(0deg, 0%, 40%);
+  --header-border-gray: hsl(0deg, 0%, 60%);
+  --green: hsl(160deg, 100%, 30%);
+}
+
 /* Typography */
 h1 {
   font-size: 2rem;
@@ -30,6 +37,14 @@ p {
   line-height: 1.5;
   margin: 0;
   margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  color: var(--green);
 }
 
 /* Header */
