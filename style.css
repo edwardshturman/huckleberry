@@ -15,18 +15,22 @@ body {
   margin: 0 auto;
 }
 
+/* Header */
 /* Space around header content */
 .intro-chunk {
   padding-top: 96px;
   padding-bottom: 64px;
 }
 
+/* Header max width */
+header .max-width-wrapper {
+  max-width: 325px;
+}
+
+/* Main content */
+
 /* Green color on bolded words */
 strong {
   color: hsl(160deg, 100%, 30%);
 }
 
-/* Header max width */
-header .max-width-wrapper {
-  max-width: 325px;
-}
