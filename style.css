@@ -13,6 +13,7 @@ body {
 .max-width-wrapper {
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 /* Header */
@@ -27,7 +28,12 @@ header .max-width-wrapper {
   max-width: 325px;
 }
 
-/* Main content */
+/* Main */
+/* Padding */
+main {
+  padding: 64px;
+}
+
 
 /* Green color on bolded words */
 strong {
